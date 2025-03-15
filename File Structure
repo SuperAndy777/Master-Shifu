@@ -1,0 +1,44 @@
+shifu/
+├── backend/
+│   ├── controllers/
+│   │   ├── hotspotController.js
+│   │   ├── leaderboardController.js
+│   │   └── incentiveController.js
+│   ├── models/
+│   │   ├── Driver.js
+│   │   ├── Hotspot.js
+│   │   └── Ride.js
+│   ├── routes/
+│   │   ├── hotspotRoutes.js
+│   │   ├── leaderboardRoutes.js
+│   │   └── incentiveRoutes.js
+│   ├── services/
+│   │   ├── hotspotService.js
+│   │   ├── leaderboardService.js
+│   │   └── incentiveService.js
+│   ├── utils/
+│   │   └── redisClient.js
+│   ├── app.js
+│   └── server.js
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── HotspotsMap.jsx
+│   │   │   ├── Leaderboard.jsx
+│   │   │   └── IncentiveNotification.jsx
+│   │   ├── App.jsx
+│   │   ├── index.js
+│   │   └── styles.css
+│   └── package.json
+├── screenshots/
+│   ├── hotspots.png
+│   ├── leaderboard.png
+│   └── incentives.png
+├── .env
+├── .gitignore
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+└── package.json
